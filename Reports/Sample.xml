@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href='Report.xsl' type='text/xsl'?>
+<Report Header="Header" ApplicationName="SGOWeb" Release="4.8.0" Build="1.0" StartTime="6/12/2011 8:04:44 PM" EndTime="6/12/2011 8:04:46 PM" ExecuteHourTime="0" ExecuteMinuteTime="0">
+  <TestSuite Desc="Test Suite 1">
+    <TestCase ID="TC_C_01" Desc="Test Case 1">
+      <Step Status="1">Step 1</Step>
+      <Step Status="1" Detail="Detail info">Step 2</Step>
+    </TestCase>
+    <TestCase ID="TC_H_02" Desc="Test Case 2">
+      <Step Status="2" ExpectedResult="Expected Result" ActualResult="Actual Result" ScreenShotPath="_Screenshots\test.bmp">Step 1</Step>
+      <Step Status="2" ExpectedResult="Expected Result" ActualResult="Actual Result" ScreenShotPath="_Screenshots\test.bmp">Step 2</Step>
+    </TestCase>
+  </TestSuite>
+  <TestSuite Desc="Test Suite 2">
+    <TestCase ID="TC_M_01" Desc="Test Case 1">
+      <Step Status="1" ExpectedResult="Expected Result" ActualResult="Actual Result" Filepath="_filepath\sample.txt">Step 1</Step>
+      <Step Status="1" ExpectedResult="Expected Result" ActualResult="Actual Result" Filepath="_filepath\sample.txt">Step 2</Step>
+    </TestCase>
+    <TestCase ID="TC_L_02" Desc="Test Case 2">
+      <Step Status="2" ExpectedResult="Expected Result" ActualResult="Actual Result" Filepath="_filepath\sample.txt" ScreenShotPath="_Screenshots\test.bmp">Step 1</Step>
+      <Step Status="2" ExpectedResult="Expected Result" ActualResult="Actual Result" Filepath="_filepath\sample.txt" ScreenShotPath="_Screenshots\test.bmp">Step 2</Step>
+    </TestCase>
+  </TestSuite>
+</Report>

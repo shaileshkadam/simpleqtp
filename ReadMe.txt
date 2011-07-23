@@ -1,0 +1,2 @@
+To understand the current demo framework, please first read document files under Documentation
+To run the demo, please change to correct URL/Location for flight4a.exe in PreExecutionSetup.xls file under Config folder, and then just double-click AutoRun.vbs.
